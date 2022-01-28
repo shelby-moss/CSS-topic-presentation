@@ -1,0 +1,30 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  color: rgb(207, 77, 77);
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: rgb(62, 150, 150);
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  color: rgb(110, 108, 108);
+}
+
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  color: rgb(110, 108, 108);
+  text-align: left;
+}
+
+body {
+  text-align: center;
+  margin-left: 8rem;
+  margin-right: 8em;
+}

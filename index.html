@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is my web page describing how to modify fonts in using CSS.">
+  <title>Fonts in CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>CSS Topic- Fonts!</h1>
+  <p>This is a simple walk through about how to choose a font, bold or italicize words, and change the size of fonts in
+    different ways.</p>
+
+  <h2>Choose Your Font</h2>
+  <p>Browsers are only able to display fonts that they have access to. CSS provides a pathway around this problem with
+    the "font-family" tag. To use this tag, you specify which font you want the browser to display, and provide back up
+    fonts that the browser can use as default options if it doesn't have access to the other preferred fonts.</p>
+
+  <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="LYOVRaY" data-user="shelby-moss"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/shelby-moss/pen/LYOVRaY">
+        Font-family</a> by shelby-moss (<a href="https://codepen.io/shelby-moss">@shelby-moss</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+  <h2>Bolding</h2>
+  <p>Fonts are bolded using the "font-weight" property. You can use this tool not only to bold fonts but to also control
+    how heavily they are bolded.</p>
+
+  <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="RwjPoNK" data-user="shelby-moss"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/shelby-moss/pen/RwjPoNK">
+        Untitled</a> by shelby-moss (<a href="https://codepen.io/shelby-moss">@shelby-moss</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+  <h2>Italicizing</h2>
+  <p>You can italicize fonts by using the "font-style" property. This property can actually be used for a lot of
+    different things, but for the time being we will just focus on its ability to italicize.</p>
+
+  <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzEXpyG" data-user="shelby-moss"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/shelby-moss/pen/YzEXpyG">
+        Font-style</a> by shelby-moss (<a href="https://codepen.io/shelby-moss">@shelby-moss</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+  <h2>Changing Font Size</h2>
+  <p>There are many different ways to define a font's size. Different properties use various units to define sizes.These
+    properties include:</p>
+  <ul>
+    <li>ABSOLUTE: based on the font's default size (font-size:large, small, x-large, medium, etc.)</li>
+    <li>RELATIVE: increases or decreases font size relative to the parent element's font size (font-size: smaller,
+      larger, etc.)</li>
+    <li>PERCENTAGE: changes the font size
+      relative to its parent element's size (font-size: 80%, 120%, etc.)</li>
+    <li>LENGTH: computes font size as multipliers of the set default
+      font sizes
+      <ul>
+        <li>font-size: 1.5em (relative to parent element) </li>
+        <li>font-size: 1.8rem (relative to root element) </li>
+        <li>font-size: 1.2ex (relative to the height of first available font on the page)</li>
+      </ul>
+    </li>
+  </ul>
+  <p>Pixels (px) are not often used because they do not provide much flexibility in design across platforms. For
+    example, when adapting from a computer screen to a phone screen, ensuring the header remains 1.5 times larger than
+    the text underneath it makes it much more readable on a phone than saying that the header always has to be "24 pt
+    font", which will look a lot bigger on a phone screen than on a full size monitor.</p>
+
+  <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYPGoav" data-user="shelby-moss"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/shelby-moss/pen/zYPGoav">
+        Font sizing</a> by shelby-moss (<a href="https://codepen.io/shelby-moss">@shelby-moss</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+</body>
+
+</html>
